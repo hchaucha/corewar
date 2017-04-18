@@ -1,23 +1,17 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Project Name}
-TODO: Write a project description
+#  Corewar
+Le Corewar est un jeu de mémoire.
+Le but pour chaque joueur est de créer un champion en langage ASM qui sera confronté aux champions des autres joueurs dans une machine virtuelle.
+L'objectif de ce projet est de coder un assembleur ainsi qu'une machine virtuelle capable d'accueillir les champions (de le chargé en mémoire).
 ## Installation
-TODO: Describe the installation process
+1. `make`
 ## Usage
-TODO: Write usage instructions
-## Contributing
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-## History
-TODO: Write history
+### Main program
+1. `./asm
+2. `./corewar`
+### Unit-tests
+(Les tests comparent la sortie standard avec ou sans les options. L'option 14 représente l'affichage des cycles et des actions effectuées par les processus)
+1. `make tests OPT=`
+2. `make tests OPT=14`
+
 ## Credits
 TODO: Write credits
-## License
-TODO: Write license
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
