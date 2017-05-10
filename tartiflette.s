@@ -1,6 +1,6 @@
-.comment "In tartiflette we thrust"
 .name "Tartiflette"
-	
+.comment "In tartiflette we thrust"
+
 debut:
 	st r1, 232
 	st r1, 232

@@ -1,6 +1,6 @@
 make_test_false()
 {
-	./tests/asm ./tests/ressources/players/$1.s > /dev/null
+	./tests/asm ./tests/ressources/players/$1.s > ./trace.txt
 
 	let "asm_total += 1"
 	if [ ! -e ./tests/ressources/players/$1.cor ]

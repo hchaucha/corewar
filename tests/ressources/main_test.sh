@@ -1,5 +1,3 @@
-cp ./asm/asm ./tests/
-cp ./corewar/corewar ./tests
 mkdir -p ./tests/sandbox
 
 asm_total=0

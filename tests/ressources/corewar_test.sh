@@ -188,6 +188,7 @@ make_tests_quater()
 			diff_length=$(($diff_length - 1))
 		done
 		printf ": [\033[31mKO\033[0m]| -> %s\n" "$result"
+		echo "$1 Vs. $2 -> $result" >> ./tests/sandbox/trace.txt
 	fi
 	
 	rm ./tests/sandbox/our.txt
